@@ -9,7 +9,9 @@ function Works({picture, git, link}) {
         </div>
         <div className='img-but-div'>
             <button className='img-but'>view code</button>
-            <button className='img-but'>live view</button>
+            <a href={link}>
+              <button className='img-but'>live view</button>
+            </a>
         </div>
     </div>
   )

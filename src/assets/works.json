@@ -1,26 +1,26 @@
 [
     {
         "id": 1,
-        "thumbnail":"pic.png",
+        "thumbnail":"pic1.png",
         "git":"www.github.com",
-        "link":"www.google.com"
+        "link":"https://go-ogle.netlify.app"
     },
     {
         "id": 2,
-        "thumbnail":"pic.png",
+        "thumbnail":"pic2.png",
         "git":"www.github.com",
-        "link":"www.google.com"
+        "link":"https://bas-apparael.netlify.app"
     },
     {
         "id": 3,
-        "thumbnail":"pic.png",
+        "thumbnail":"pic3.png",
         "git":"www.github.com",
-        "link":"www.google.com"
+        "link":"https://robofriend-ss.netlify.app"
     },
     {
         "id": 4,
-        "thumbnail":"pic.png",
+        "thumbnail":"pic4.png",
         "git":"www.github.com",
-        "link":"www.google.com"
+        "link":"https://new-riasample.netlify.app"
     }
 ]
