@@ -1,0 +1,146 @@
+.home-container{
+    width: 100%;
+    background-color: #282c34;
+    color: tomato;
+    height: 100vh;
+}
+.home-contain{
+    width: 80%;
+    margin: 0 auto;
+}
+.nav-bar{
+    padding:2rem 0 1rem;
+}
+.section{
+    display: flex;
+    /* border: 1px solid pink; */
+    margin-top: 10%;
+}
+.bottom-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    transition: 5000ms ease-in;
+    margin-top: 3%;
+    flex-direction: column;
+    flex: 60%
+}
+.text-div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap:20px;
+}
+.icons-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+    /* margin-top:20px; */
+}
+.icons-div2{
+    display: none;
+}
+.iconss{
+    color: #fbefef;
+}
+.iconss:hover{
+    color: tomato;
+    cursor: pointer;
+}
+.name-div{
+    position: relative;
+    animation: myAnima 5s cubic-bezier(0.11, 0, 0.5, 0) 1s 1 normal both;
+    color:white;
+    font-size: calc(10px + 2vmin);
+}
+@keyframes myAnima {
+	0%,
+	50%,
+	100% {
+		opacity: 1;
+	}
+
+	25%,
+	75% {
+		opacity: 0;
+	}
+}
+.name-div:hover{
+    color: tomato;
+    transition: 3000ms ease-in;
+    transition: 6000ms ease-out;
+    
+}
+
+.slide2{
+    background-color: transparent;
+    color: tomato;
+    border: 1px solid tomato;
+    /* margin-top: 5%; */
+    box-shadow: rgba(0,0,0,0.24) 0px 3px 8px;animation: myAnim 4s ease 1s 1 normal both;
+    border-radius: 10px 10px 0 0;
+    padding: 20px;
+    transform: translateY(70px)
+}
+.slide2:hover{
+    background-color: tomato;
+    color:#282c34;
+    border: 1px solid tomato;
+}
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(-1.2deg);
+	}
+}
+.work-but{
+    padding: 20px 3.5rem;
+    background:transparent;
+    border-radius: 4px;
+    color: #fbefef;
+    border: 1px solid tomato;
+}
+.work-but:hover{
+    background-color: tomato;
+}
+/* .work-but::after{
+    content: attr(view);
+} */
+
+@media screen and (max-width: 800px) {
+    .icons-div2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        /* margin-top:20px; */
+    }
+    .icons-div{
+        display: none;
+    }
+}
