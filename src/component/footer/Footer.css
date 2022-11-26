@@ -1,0 +1,15 @@
+.foot-container{
+    width: 100%;
+    background-color: #282c34;
+    color: white;
+    height: fit-content;
+    padding: 20px 0px 20px;
+    text-align: center;
+}
+.foot-contain{
+    width: 80%;
+    margin: 0 auto;
+}
+a{
+    text-decoration: dashedc
+}

@@ -29,3 +29,9 @@
     width: 225px;
     height:225px;
 }
+@media screen and(max-width: 550px) {
+    .skills{
+        width: 100px;
+        height:100px;
+    }
+}
