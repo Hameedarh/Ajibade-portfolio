@@ -143,4 +143,8 @@
     .icons-div{
         display: none;
     }
+    .home-container{
+        height: fit-content;
+        padding: 0px 0px 30px;
+    }
 }
