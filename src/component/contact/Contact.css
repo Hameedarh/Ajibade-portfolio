@@ -1,37 +1,29 @@
-.skills-container{
+.con-container{
     width: 100%;
     background-color: #282c34;
-    color: tomato;
+    color: white;
     height: fit-content;
-    padding: 0px 0px 2.5rem;
+    padding: 3rem 0px 2.5rem;
+    border-bottom: 1px solid whitesmoke;
 }
-.skills-contain{
+.con-contain{
     width: 80%;
     margin: 0 auto;
+    
 }
-.skill-title{
+.con-title{
     text-align: center;
     border-bottom: 3px dashed tomato;
     width: fit-content;
+    color: tomato;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.skills-flex{
+.con-section{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    gap: 40px;
-    margin-top: 2rem;
-}
-.skills{
-    width: 225px;
-    height:225px;
-}
-@media screen and(max-width: 600px) {
-    .skills{
-        width: 100px;
-        height:100px;
-    }
+    flex-direction: column;
+    margin-top: 3rem;
 }

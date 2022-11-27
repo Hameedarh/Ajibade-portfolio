@@ -6,6 +6,19 @@
 /* body{
   background-color: #282c34;
   color: tomato;
+  background-image: radial-gradient(
+    at bottom left,
+    pink,
+    rgb(70, 31, 24),
+    rgb(51, 24, 19)
+    #282c34,
+    #282c34,
+    #282c34,
+    #282c34,
+    #282c34,
+    rgb(51, 24, 19),
+    rgb(70, 31, 24),
+);
 } */
 /* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
