@@ -12,8 +12,8 @@ function Contact() {
         <section className='con-section'>
           <p>Contact me via</p>
           <div>
-            <Envelope size={40}/> 
-            <Phone size={40}/>
+            <a href="mailto:abisolahamidat@gmail.com"><Envelope size={40}/></a>
+            <a href="https://wa.me/08163764664"><Phone size={40}/></a>
           </div>
         </section>
       </div>

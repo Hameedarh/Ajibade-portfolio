@@ -3,7 +3,7 @@
     background-color: #282c34;
     color: tomato;
     height: fit-content;
-    padding: 0px 0px 2.5rem;
+    padding: 2rem 0px 2.5rem;
 }
 .skills-contain{
     width: 80%;
@@ -24,6 +24,9 @@
     flex-wrap: wrap;
     gap: 40px;
     margin-top: 2rem;
+}
+.skills-flex p{
+    color:white;
 }
 .skills{
     width: 225px;

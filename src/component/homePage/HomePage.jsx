@@ -14,8 +14,8 @@ function HomePage() {
             <section className='section'>
                 <div className='icons-div'>
                     <LinkedinLogo size={40}  className='iconss'/>
-                    <WhatsappLogo size={40}  className='iconss'/>
-                    <InstagramLogo size={40}  className='iconss'/>
+                    <a href="https://wa.me/08163764664"><WhatsappLogo size={40}  className='iconss'/></a>
+                    <a href="https://www.instagram.com/ha.mee.darh"><InstagramLogo size={40}  className='iconss'/></a>
                     <GithubLogo size={40}  className='iconss'/>
                 </div>
                 <div className='bottom-div'>
@@ -60,8 +60,8 @@ function HomePage() {
                         </div>
                         <div className='icons-div2'>
                             <LinkedinLogo size={40}  className='iconss'/>
-                            <WhatsappLogo size={40}  className='iconss'/>
-                            <InstagramLogo size={40}  className='iconss'/>
+                            <a href="https://www.instagram.com/ha.mee.darh"><WhatsappLogo size={40}  className='iconss'/></a>
+                            <a href="https://www.instagram.com/ha.mee.darh"><InstagramLogo size={40}  className='iconss'/></a>
                             <GithubLogo size={40}  className='iconss'/>
                         </div>
                         <div>

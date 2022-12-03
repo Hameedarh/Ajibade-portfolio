@@ -1,8 +1,16 @@
 .con-container{
     width: 100%;
+    background-image: url(C:\Users\BISOLA\Desktop\ham\react-folders\ajibade-port\public\g12.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    position: relative;
+    overflow: hidden;
+    opacity: 0.9;
     background-color: #282c34;
     color: white;
-    height: fit-content;
+    height: 100vh;
     padding: 3rem 0px 2.5rem;
     border-bottom: 1px solid whitesmoke;
 }
