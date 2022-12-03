@@ -3,6 +3,9 @@
   margin: 0;
   padding: 0;
 }
+a{
+  color:white;
+}
 /* body{
   background-color: #282c34;
   color: tomato;
