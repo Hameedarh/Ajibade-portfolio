@@ -1,7 +1,7 @@
 .home-container{
     width: 100%;
     background-color: #282c34;
-    background-image: url(C:\Users\BISOLA\Desktop\ham\react-folders\ajibade-port\public\g14.jpg);
+    background-image: url('../../../public/g14.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

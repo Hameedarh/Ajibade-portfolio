@@ -1,6 +1,6 @@
 .con-container{
     width: 100%;
-    background-image: url(C:\Users\BISOLA\Desktop\ham\react-folders\ajibade-port\public\g12.jpg);
+    background-image: url('../../../public/g12.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
